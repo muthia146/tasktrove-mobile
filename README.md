@@ -1,17 +1,25 @@
-# tasktrove_mobile
+# Tasktrove Mobile
 
-A new Flutter project.
+Aplikasi Management Tugas berbasis Mobile yang dikembangkan menggunakan framework **Flutter**.
+
+* **Nama:** Muthia Anggraeni Rukmawan
+* **NPM:** 247006111029
+* **Kelas:** A
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+## Deskripsi Proyek
+TaskTrove Mobile adalah aplikasi manajemen tugas yang terintegrasi langsung dengan **REST API** yang telah di-deploy di Vercel. Proyek ini mendemonstrasikan implementasi autentikasi modern, manajemen state yang reaktif, serta operasi data lengkap (CRUD).
 
-A few resources to get you started if this is your first Flutter project:
+### Fitur Utama:
+- **Dashboard & Branding:** Halaman awal yang memberikan kesan visual aplikasi sebelum masuk ke sistem.
+- **Autentikasi JWT:** Fitur Register dan Login yang aman dengan penyimpanan token menggunakan `flutter_secure_storage`.
+- **Full CRUD Management:**
+  - **Create:** Menambahkan tugas baru.
+  - **Read:** Menampilkan list tugas secara real-time dari server.
+  - **Update:** Mengubah deskripsi, nama matkul, atau status tugas (Pending, In Progress, Done).
+  - **Delete:** Menghapus tugas dari database.
+- **Three-State UI:** Implementasi kondisi *Loading*, *Error*, dan *Success* yang informatif.
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Arsitektur Aplikasi
+Proyek ini menerapkan **Layered Architecture** untuk memastikan kode tetap modular dan mudah dikelola:
