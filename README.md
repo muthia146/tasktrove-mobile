@@ -22,4 +22,20 @@ TaskTrove Mobile adalah aplikasi manajemen tugas yang terintegrasi langsung deng
 - **Three-State UI:** Implementasi kondisi *Loading*, *Error*, dan *Success* yang informatif.
 
 ## Arsitektur Aplikasi
-Proyek ini menerapkan **Layered Architecture** untuk memastikan kode tetap modular dan mudah dikelola:
+Proyek ini menerapkan **Layered Architecture** untuk memastikan kode tetap modular dan mudah dikelola
+
+## Cara Menjalankan Aplikasi (Panduan Lokal)
+Gunakan panduan ini jika Anda ingin menjalankan proyek ini di lingkungan lokal Anda:
+
+1. **Clone Repository:**
+       git clone https://github.com/muthia146/tasktrove-mobile.git
+
+2. **Masuk ke Direktori:**
+       cd tasktrove_mobile
+
+3. **Instalasi Dependencies:**
+       flutter pub get
+
+4. **Jalankan Aplikasi:**
+   Pastikan emulator Android sudah aktif, lalu jalankan perintah:
+       flutter run
